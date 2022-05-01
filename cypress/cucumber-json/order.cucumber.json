@@ -1,0 +1,188 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "As a customer, I should be able to authorize Payment",
+    "line": 1,
+    "id": "as-a-customer,-i-should-be-able-to-authorize-payment",
+    "tags": [],
+    "uri": "order.feature",
+    "elements": [
+      {
+        "id": "as-a-customer,-i-should-be-able-to-authorize-payment;as-a-customer,-i-should-be-able-to-authorize-payment-for-6month-tenure",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "As a customer, I should be able to authorize Payment for 6month tenure",
+        "tags": [
+          {
+            "name": "@order",
+            "line": 2
+          },
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I launch web application",
+            "result": {
+              "status": "failed",
+              "duration": 491000000,
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://staging.instacred.me/simulation/tpsl/e2e-transaction.jsp\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n    at http://localhost:57495/__cypress/runner/cypress_runner.js:163310:84\n    at visitFailedByErr (http://localhost:57495/__cypress/runner/cypress_runner.js:162631:12)\n    at http://localhost:57495/__cypress/runner/cypress_runner.js:163290:13\n    at tryCatcher (http://localhost:57495/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (http://localhost:57495/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (http://localhost:57495/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (http://localhost:57495/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (http://localhost:57495/__cypress/runner/cypress_runner.js:11135:18)\n    at _drainQueueStep (http://localhost:57495/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (http://localhost:57495/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:57495/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (http://localhost:57495/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:57495/__cypress/tests?p=cypress/integration/order.feature:41:6)\n    at Context.resolveAndRunStepDefinition (http://localhost:57495/__cypress/tests?p=cypress/integration/order.feature:7056:29)\n    at Context.eval (http://localhost:57495/__cypress/tests?p=cypress/integration/order.feature:6377:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I wait for home page to load",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter mobile number as \"1234567\" and choose \"Kotak\" bank",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I validate complete EMI transaction page is loaded and enter valid mobile number",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I validate select EMI transaction page is loaded and choose tenure of emi as option 1",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I validate transaction confirmation page is loaded and enter the card number as 1234",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I validate confirm transaction section is loaded and enter valid otp as 777777 then click on confirm",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I validate payment is successful",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-customer,-i-should-be-able-to-authorize-payment;as-a-customer,-i-should-be-able-to-authorize-payment-for-12month-tenure",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "As a customer, I should be able to authorize Payment for 12month tenure",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I launch web application",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://staging.instacred.me/simulation/tpsl/e2e-transaction.jsp\n\nThe response we received from your web server was:\n\n  > 403: Forbidden\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n    at http://localhost:57495/__cypress/runner/cypress_runner.js:163310:84\n    at visitFailedByErr (http://localhost:57495/__cypress/runner/cypress_runner.js:162631:12)\n    at http://localhost:57495/__cypress/runner/cypress_runner.js:163290:13\n    at tryCatcher (http://localhost:57495/__cypress/runner/cypress_runner.js:13022:23)\n    at Promise._settlePromiseFromHandler (http://localhost:57495/__cypress/runner/cypress_runner.js:10957:31)\n    at Promise._settlePromise (http://localhost:57495/__cypress/runner/cypress_runner.js:11014:18)\n    at Promise._settlePromise0 (http://localhost:57495/__cypress/runner/cypress_runner.js:11059:10)\n    at Promise._settlePromises (http://localhost:57495/__cypress/runner/cypress_runner.js:11135:18)\n    at _drainQueueStep (http://localhost:57495/__cypress/runner/cypress_runner.js:7729:12)\n    at _drainQueue (http://localhost:57495/__cypress/runner/cypress_runner.js:7722:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:57495/__cypress/runner/cypress_runner.js:7738:5)\n    at Async.drainQueues (http://localhost:57495/__cypress/runner/cypress_runner.js:7608:14)\nFrom Your Spec Code:\n    at Context.eval (http://localhost:57495/__cypress/tests?p=cypress/integration/order.feature:41:6)\n    at Context.resolveAndRunStepDefinition (http://localhost:57495/__cypress/tests?p=cypress/integration/order.feature:7056:29)\n    at Context.eval (http://localhost:57495/__cypress/tests?p=cypress/integration/order.feature:6377:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I wait for home page to load",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I enter mobile number as \"1234567\" and choose \"IDFC\" bank",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "I validate complete EMI transaction page is loaded and enter valid mobile number",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I validate select EMI transaction page is loaded and choose tenure of emi as option 3",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I validate transaction confirmation page is loaded and enter the card number as 1234",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I validate confirm transaction section is loaded and enter valid otp as 777777 then click on confirm",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I validate payment is successful",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

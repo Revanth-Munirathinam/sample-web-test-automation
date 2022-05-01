@@ -1,0 +1,13 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "env": {
+      "url": "https://staging.instacred.me/simulation/tpsl/e2e-transaction.jsp"
+    },
+    "reporter": "mochawesome",
+    "reporterOptions": {
+       "reportDir": "cypress/results",
+       "overwrite": false,
+       "html": false,
+       "json": true
+    }
+  }
